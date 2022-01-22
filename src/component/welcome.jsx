@@ -14,7 +14,7 @@ export default class Welcome extends React.Component {
         return (
             <div className="card col-md-6 col-lg-4 center">
                 <div className="card-header text-center bg-success text-light">
-                    Registration Successfull
+                    Registration Success
                 </div>
                 <div className="card-body d-flex flex-column align-items-center">
                     <h1>Welcome</h1>
