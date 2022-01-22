@@ -3,7 +3,11 @@ import React from "react";
 export default class Welcome extends React.Component {
 
     handleLogout = () => {
-        this.props.logged({logged: false})
+        this.props.logout({
+            email: "",
+            password: "",
+            logged: false
+        })
     }
 
     render() {

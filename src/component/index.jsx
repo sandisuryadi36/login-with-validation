@@ -27,7 +27,7 @@ export default class LoginCard extends React.Component {
     render() {
         if (this.state.logged) {
             return (
-                <Welcome email={this.state.email} password={this.state.password} logged={this.logout} />
+                <Welcome email={this.state.email} password={this.state.password} logout={this.logout} />
             )
         }else return (
             <div className="card col-md-6 col-lg-4 center">
