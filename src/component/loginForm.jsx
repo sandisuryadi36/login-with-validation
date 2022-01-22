@@ -57,7 +57,7 @@ export default class LoginForm extends React.Component {
                         onChange={value => this.setState({ email: value })} />
                     <InputForm label={"Password"} type={"password"} name={"password"}
                         onChange={value => this.setState({ password: value })} />
-                    <button type="submit" className="btn btn-success m-3 align-self-center">Login</button>
+                    <button type="submit" className="btn btn-success m-3 align-self-center">Sign UP</button>
                 </form>
             </div>
         );

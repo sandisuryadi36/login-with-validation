@@ -32,7 +32,7 @@ export default class LoginCard extends React.Component {
         }else return (
             <div className="card col-md-6 col-lg-4 center">
                 <div className="card-header text-center">
-                    Login Your Account
+                    Register Your Account
                 </div>
                 {
                     this.state.errors && <ErrorMessage errors={this.state.errors} />
